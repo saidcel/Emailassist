@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Politique de confidentialité</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 0 20px; line-height: 1.6; }
+        h1 { color: #2c3e50; }
+        a { color: #3498db; }
+        .back { margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>Politique de confidentialité</h1>
+    <p><em>Dernière mise à jour : 27 février 2026</em></p>
+
+    <p>Merci d'utiliser Email Outreach Assistant. Nous accordons une grande importance à la protection de vos données personnelles. Cette politique explique quelles informations nous collectons, comment nous les utilisons et quels sont vos droits.</p>
+
+    <h2>1. Responsable du traitement</h2>
+    <p>Le responsable du traitement de vos données est <strong>Said</strong>, joignable à <a href="mailto:said85000@gmail.com">said85000@gmail.com</a>.</p>
+
+    <h2>2. Données collectées</h2>
+    <p>Notre application ne collecte <strong>aucune donnée personnelle sur nos serveurs</strong>. L'application fonctionne localement sur votre ordinateur. Les seules données traitées sont :</p>
+    <ul>
+        <li><strong>Fichiers importés</strong> : Les informations contenues dans les fichiers CSV ou Excel que vous importez (noms, emails, postes, entreprises, etc.). Ces données restent sur votre machine et ne sont pas transmises à nos serveurs.</li>
+        <li><strong>API Gemini</strong> : Lors de la génération d'emails, les prompts contenant les données de vos prospects sont envoyés aux serveurs de Google pour traitement via l'API Gemini. Nous n'avons pas accès à ces échanges. Veuillez consulter la <a href="https://policies.google.com/privacy">politique de confidentialité de Google</a> pour plus d'informations.</li>
+        <li><strong>Authentification Gmail</strong> : L'authentification se fait via OAuth. Nous recevons un jeton d'accès qui permet de créer des brouillons dans votre boîte mail. Nous ne stockons pas vos emails, ni vos identifiants. Le jeton est conservé localement sur votre ordinateur (fichier <code>token.json</code>).</li>
+    </ul>
+
+    <h2>3. Utilisation des données</h2>
+    <p>Les données sont utilisées uniquement pour :</p>
+    <ul>
+        <li>Générer des emails personnalisés via l'API Gemini.</li>
+        <li>Créer des brouillons dans votre compte Gmail (si vous le demandez).</li>
+    </ul>
+    <p>Aucune autre utilisation n'est faite.</p>
+
+    <h2>4. Partage des données</h2>
+    <p>Nous ne partageons aucune donnée avec des tiers, sauf si la loi nous y oblige. Les échanges avec Google (API Gemini, OAuth) sont régis par leurs propres conditions.</p>
+
+    <h2>5. Sécurité</h2>
+    <p>L'application ne communique avec aucun serveur extérieur autre que les API Google que vous avez autorisées. Nous vous recommandons de protéger votre ordinateur et de ne pas partager votre jeton d'accès.</p>
+
+    <h2>6. Vos droits</h2>
+    <p>Vous avez le droit d'accéder, de rectifier ou de supprimer vos données. Comme nous ne stockons rien, ces droits s'exercent directement sur votre machine (suppression des fichiers importés, révocation de l'accès Gmail depuis votre compte Google).</p>
+
+    <h2>7. Contact</h2>
+    <p>Pour toute question, écrivez à <a href="mailto:saidcel99@example.com">saidcel99@example.com</a>.</p>
+
+    <div class="back"><a href="index.html">← Retour à l'accueil</a></div>
+</body>
+</html>
